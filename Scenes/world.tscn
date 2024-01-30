@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://chycqtfuu82jd"]
+[gd_scene load_steps=2 format=3 uid="uid://chycqtfuu82jd"]
+
+[ext_resource type="TileSet" uid="uid://f5mawtjwror6" path="res://tilemaps/mk_16_16_nature_tileset_godot/tileset_mk_16_16_nature_tileset_godot.tres" id="1_8l5f5"]
 
 [node name="world" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(0, -1)
+tile_set = ExtResource("1_8l5f5")
+format = 2
